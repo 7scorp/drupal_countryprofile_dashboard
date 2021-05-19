@@ -1,0 +1,17 @@
+name: Country Profile Module
+type: module
+description: 'This module interprets information from Protected Planet API for the Caribbean Country Profiles'
+core: 8.x
+
+package: custom
+core_version_requirement: ^8||^9
+
+dependencies:
+  - drupal:migrate_plus(>=5.x)
+  - drupal:migrate_api
+
+php: 7.1
+
+hidden: false
+required: true
+

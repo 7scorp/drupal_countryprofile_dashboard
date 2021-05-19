@@ -1,0 +1,22 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection) or
+# paste cURL into the file and request will be converted to HTTP Request format.
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+### Authorization by token, part 1. Retrieve and save token.
+POST http://api.protectedplanet.net/test
+Content-Type: application/json
+
+{
+  "token": "90115473e4ff03f8d9a1e5a46bb5e6a6"
+}
+
+> {% client.global.set("auth_token", response.body.json.token); %}
+
+### Authorization by token, part 2. Use token to authorize.
+GET http://api.protectedplanet.net/headers
+Authorization: Bearer {{auth_token}}
+
+###

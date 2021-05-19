@@ -1,0 +1,10 @@
+type: cpag_partner_identification
+name: CPAG Partner ID
+description: "Helps to correctly idenfity <b>CPAG</b> stakeholders - nodetype."
+help: ''
+new_revision: false
+display_submitted: true
+preview_mode: 1
+status: true
+langcode: en
+dependencies: { }

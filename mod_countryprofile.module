@@ -1,0 +1,21 @@
+<?php
+/**
+* @file
+* This module interprets information from Protected Planet API for the Caribbean Country Profiles
+*/
+
+/**
+ * Connect to partner APIs to update our dataset.  The frequency of this check is determined by the client
+ * Will use ETL strategy, enabled by Drupal Core Migrate API, Migrate Plus, with Highwater marks guiding the update specifics
+ */
+
+/**
+ * Retrieve various datasets as determined by the user (local data, regional data, other apis real time info, )
+ */
+
+/**
+ * User Interface Intelligent enough to differentiate the useful graphs based on data characteristics.
+ * i.e. selecting a single-country dataset can result in pie charts and tables, vs selecting a dataset with multiple countries can allow different types of vizualization options (bar charts, line graphs, dots, 3d)
+ * Time sensitive datasets can result in time-based visualization options.
+ */
+
