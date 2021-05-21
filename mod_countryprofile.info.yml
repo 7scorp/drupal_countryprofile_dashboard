@@ -6,9 +6,11 @@ core: 8.x
 package: custom
 core_version_requirement: ^8||^9
 
-dependencies:
-  - drupal:migrate_plus(>=5.x)
-  - drupal:migrate_api
+# dependencies:
+#  - drupal:migrate_plus(>=5.x)
+#  - drupal:migrate_api
+# Error: Argument 1 passed to Drupal\Core\Extension\ModuleExtensionList::ensureRequiredDependencies() must be an instance of Drupal\Core\Extension\Extension, instance of stdClass given, called in /home/caribbea/beta.caribbeanprotectedareasgateway.com/countryprofiles/core/lib/Drupal/Core/Extension/ModuleExtensionList.php on line 218 in Drupal\Core\Extension\ModuleExtensionList->ensureRequiredDependencies() (line 210 of core/lib/Drupal/Core/Extension/ModuleExtensionList.php).
+# Status After Disabling: Warning: Creating default object from empty value in Drupal\Core\Extension\ModuleExtensionList->ensureRequiredDependencies() (line 215 of core/lib/Drupal/Core/Extension/ModuleExtensionList.php).
 
 php: 7.1
 
