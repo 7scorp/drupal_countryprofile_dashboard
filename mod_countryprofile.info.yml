@@ -15,5 +15,5 @@ core_version_requirement: ^8||^9
 php: 7.1
 
 hidden: false
-required: true
+required: false
 
