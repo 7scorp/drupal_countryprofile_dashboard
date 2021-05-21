@@ -10,7 +10,7 @@ POST http://api.protectedplanet.net/test
 Content-Type: application/json
 
 {
-  "token": "90115473e4ff03f8d9a1e5a46bb5e6a6"
+  "token": ""
 }
 
 > {% client.global.set("auth_token", response.body.json.token); %}
