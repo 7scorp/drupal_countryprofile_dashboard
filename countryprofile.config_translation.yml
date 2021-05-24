@@ -1,5 +1,0 @@
-countryprofile.admin.config:
-  title: 'Country Profile Module'
-  base_route_name: countryprofile.admin.config
-  names:
-    - countryprofile.settings

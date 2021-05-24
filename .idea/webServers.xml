@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="546c4d3f-fb5e-46c5-8c35-be48351559aa" name="cpag beta" url="http://caribbeanprotectedareasgateway.com">
+        <fileTransfer host="caribbeanprotectedareasgateway.com" port="21" rootFolder="/cpagtools/modules/custom/mod_countryprofile/">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

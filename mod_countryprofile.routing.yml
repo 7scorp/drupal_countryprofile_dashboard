@@ -1,0 +1,7 @@
+mod_countryprofile.content:
+  path: '/countryprofiles'
+  defaults:
+    _controller: '\Drupal\mod_countryprofile\Controller\FirstController::content'
+    _title: 'Main Country Profiles Dashboard'
+  requirements:
+    _permission: 'access content'

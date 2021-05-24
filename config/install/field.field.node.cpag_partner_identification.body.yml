@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.cpag_partner_identification
+  module:
+    - text
+id: node.cpag_partner_identification.body
+field_name: body
+entity_type: node
+bundle: cpag_partner_identification
+label: Body
+description: 'Details about the CPAG partner'
+required: false
+translatable: true
+default_value: { }
+default_value_callback: ' '
+settings:
+  display_summary: true
+field_type: text_with_summary

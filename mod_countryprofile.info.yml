@@ -16,4 +16,8 @@ php: 7.1
 
 hidden: false
 required: false
+version: 1.0-dev
+
+dependencies:
+  - node
 

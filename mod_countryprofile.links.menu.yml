@@ -1,0 +1,6 @@
+mod_countryprofile.newpage:
+  title: 'Country Profiles Data Visualization'
+  description: 'Top Level Data for the Caribbean Region'
+  route_name: mod_countryprofile.content
+  weight: 10
+  menu_name: main
